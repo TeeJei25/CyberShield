@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+@import 'uniwind';
+@import 'heroui-native/styles';
+@source '../node_modules/heroui-native/lib';
+@source './components';
+@theme {
+ --font-sans: 'System';
+ --radius-sm: 10px; --radius-md: 16px; --radius-lg: 22px;
+}
+@layer theme {
+ :root {
+  @variant light {
+   --background: #020b18; --foreground: #eef7ff; --surface: #061b32; --surface-foreground: #eef7ff; --surface-secondary: #09243e; --surface-secondary-foreground: #eef7ff; --surface-tertiary: #10324f; --surface-tertiary-foreground: #eef7ff; --overlay: #061b32; --overlay-foreground: #eef7ff; --muted: #96acc6; --default: #0b2844; --default-foreground: #eef7ff; --accent: #19ceff; --accent-foreground: #001628; --border: #123652; --separator: #123652; --field-background: #031a30; --field-foreground: #eef7ff; --field-placeholder: #96acc6; --field-border: #123652; --success: #16ddad; --success-foreground: #001d1a; --warning: #ffb74c; --warning-foreground: #201200; --danger: #ff6188; --danger-foreground: #fff5f7; --focus: #19ceff; --link: #19ceff;
+  }
+  @variant dark {
+   --background: #020b18; --foreground: #eef7ff; --surface: #061b32; --surface-foreground: #eef7ff; --surface-secondary: #09243e; --surface-secondary-foreground: #eef7ff; --surface-tertiary: #10324f; --surface-tertiary-foreground: #eef7ff; --overlay: #061b32; --overlay-foreground: #eef7ff; --muted: #96acc6; --default: #0b2844; --default-foreground: #eef7ff; --accent: #19ceff; --accent-foreground: #001628; --border: #123652; --separator: #123652; --field-background: #031a30; --field-foreground: #eef7ff; --field-placeholder: #96acc6; --field-border: #123652; --success: #16ddad; --success-foreground: #001d1a; --warning: #ffb74c; --warning-foreground: #201200; --danger: #ff6188; --danger-foreground: #fff5f7; --focus: #19ceff; --link: #19ceff;
+  }
+ }
+}
